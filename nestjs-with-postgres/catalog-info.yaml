@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: nestjs-template
+  title: NestJS with PostgreSQL Template
+  description: Template to bootstrap a NestJS app with PostgreSQL
+spec:
+  owner: user:clecioantao
+  type: service
+  path: ./template.yaml
